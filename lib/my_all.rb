@@ -6,7 +6,7 @@ def my_all?(collection)
   while i < collection.length
     collect_values << yield(collection[i])
     i += 1
-  
+
 end
 
   if collect_values.include?(false)
